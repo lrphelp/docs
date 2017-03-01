@@ -50,3 +50,9 @@ ul#markdown-toc {
     left: 0%;
     top: 100px;
 }
+
+ul#markdown-toc::before {
+    content: "Inhoudsopgave";
+    font-size: 1.4em;
+}
+  
