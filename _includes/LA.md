@@ -1,5 +1,8 @@
 # De ledenadministrateur
 
+* This will become a table of contents (this text will be scraped).
+{:toc}
+
 ## Inleiding
 
 Als **ledenadministrateur** bent u de spil van het ledenregistratiesysteem.
