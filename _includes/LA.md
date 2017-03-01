@@ -1,7 +1,5 @@
 # De ledenadministrateur
 
-{:toc}
-
 ## Inleiding
 
 Als **ledenadministrateur** bent u de spil van het ledenregistratiesysteem.
