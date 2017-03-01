@@ -1,7 +1,8 @@
 body {
     margin: 60px auto;
     width: 70%;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif' !important;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif' !important; /* why is important needed? */
+    font-size: 0.8em !important;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
