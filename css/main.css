@@ -45,9 +45,8 @@ ul.posts li {
 }
 
 ul#markdown-toc {
-    /*position: fixed;
+    position: fixed;
     width: 20%;
-    left: -20%;
-    top: 0;
-    margin-top: 60px;*/
+    left: 0%;
+    top: 100px;
 }
