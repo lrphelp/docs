@@ -1,7 +1,11 @@
+---
+layout: default
+title: Hank Quinlan, Horrible Cop
+---
 # First entry
 
 ## Welcome
-This page is under construction.
+this site is under construction
 
 ## Bye
-Come back soon!
+come back soon!
