@@ -1,7 +1,7 @@
-= First entry
+# First entry
 
-== Welcome
+## Welcome
 This page is under construction.
 
-== Bye
+## Bye
 Come back soon!
