@@ -48,5 +48,6 @@ ul#markdown-toc {
     position: fixed;
     width: 20%;
     left: -20%;
-    top: 120px;
+    top: 0;
+    margin-top: 120px;
 }
