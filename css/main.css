@@ -44,7 +44,7 @@ ul.posts li {
     list-style: none;
 }
 
-ul#toc-markdown {
+ul#markdown-toc {
     float: left;
     width: 20%;
     margin-top: 60px;
