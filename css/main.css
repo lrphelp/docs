@@ -54,5 +54,6 @@ ul#markdown-toc {
 ul#markdown-toc::before {
     content: "Inhoudsopgave";
     font-size: 1.4em;
+    color: #999;
 }
   
