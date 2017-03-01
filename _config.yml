@@ -1,2 +1,4 @@
 name: LRP documentatie
 markdown: kramdown
+gems:
+  - jekyll-sitemap
