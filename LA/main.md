@@ -38,7 +38,7 @@ Het door u ingegeven adres verandert vanzelf in het beveiligde adres http**s**:/
 
 Het volgende scherm verschijnt:
 
-<img src="./pics/COMMON_login.png" width="300"/>
+<img src="../pics/COMMON_login.png" width="300"/>
 
 Uw naam is het e-mailadres dat u aan uw lokaal beheerder hebt doorgegeven. Het wachtwoord is het wachtwoord dat u via hetzelfde e-mailadres hebt ontvangen.
 
