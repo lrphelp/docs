@@ -56,4 +56,10 @@ ul#markdown-toc::before {
     font-size: 1.4em;
     color: #999;
 }
+
+a#logo {
+    position: fixed; 
+    top: 0; 
+    left: 0;
+}
   
