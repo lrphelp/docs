@@ -1,69 +1,14 @@
 /*  Let's state some rules here later
  *
  */
-
 body {
-    margin: 60px auto;
-    width: 60%;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif' !important; /* why is important needed? */
-    font-size: 0.8em !important;
-}
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
-a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+	padding-top: 80px;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
-}
-
-ul#markdown-toc {
-    position: fixed;
-    width: 20%;
-    left: 0%;
-    top: 100px;
-}
-
-ul#markdown-toc::before {
-    content: "Inhoudsopgave";
-    font-size: 1.4em;
-    color: #999;
-}
-
+/*
 a#logo {
     position: fixed; 
     top: 25px; 
     left: 25px;
 }
-  
+*/
