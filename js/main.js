@@ -5,7 +5,6 @@ $(document).ready(function () {
 	
 	// START offcanvas.js (this does not work)
 	$('[data-toggle="offcanvas"]').click(function () {  
-		console.log('data-toggle clicked');
 		$('.row-offcanvas').toggleClass('active')
 	}); //END offcanvas.js
 	
