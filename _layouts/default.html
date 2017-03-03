@@ -29,18 +29,16 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				  </button>
-				  <a class="navbar-brand" href="#">Project name</a>
+				  <a class="navbar-brand" href="#">LRP help</a>
 				</div>
 				<div id="navbar" class="collapse navbar-collapse">
 				  <ul class="nav navbar-nav">
-					<li class="active"><a href="#">Home</a></li>
-					<li><a href="#about">About</a></li>
-					<li><a href="#LB">LB</a></li>
+					<li class="active"><a href="/">Home</a></li>
+					<li><a href="/LB">LB</a></li>
 					<li><a href="/LA">LA</a></li>
-					<li><a href="#BA">BA</a></li>
-					<li><a href="#PW">PW</a></li>
-					<li><a href="http://lrp-netwerk.pkn.nl/home-lrp">LRP-netwerk</a></li>
-					<li><a href="#contact">Contact</a></li>
+					<li><a href="/BA">BA</a></li>
+					<li><a href="/PW">PW</a></li>
+					<li><a href="http://lrp-netwerk.pkn.nl/home-lrp/contact">Contact</a></li>
 				  </ul>
 				</div><!-- /.nav-collapse -->
 			  </div><!-- /.container -->
@@ -60,9 +58,8 @@
 						</div><!--/#toc-->
 					</div><!--/.sidebar-offcanvas-->
 				</div><!--/row-->
-			
-			
 			</div><!-- /.container -->
+			
 			<footer>
 	    		<ul>
 	        		<li><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#108;&#114;&#112;&#45;&#104;&#101;&#108;&#112;&#64;&#112;&#114;&#111;&#116;&#101;&#115;&#116;&#97;&#110;&#116;&#115;&#101;&#107;&#101;&#114;&#107;&#46;&#110;&#108;">e-mail</a></li>
@@ -78,11 +75,16 @@
 			<script src="/js/toc.js"></script>
 			<script>
 				$(document).ready(function () {
-					$('#toc').toc({ title: "Ga naar..." }); // generate TOC
 					// START offcanvas.js
-					$('[data-toggle="offcanvas"]').click(function () {  
-						$('.row-offcanvas').toggleClass('active')
-					}); //END offcanvas.js
+					// $('[data-toggle="offcanvas"]').click(function () {  
+					//	$('.row-offcanvas').toggleClass('active')
+					// }); //END offcanvas.js
+					$('#toc').toc({ title: "Ga naar..." })
+						.done( function(){
+							$('[data-toggle="offcanvas"]').click(function () {  
+								$('.row-offcanvas').toggleClass('active')
+							});
+						});
 				});
 			</script>
 
