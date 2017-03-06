@@ -1,6 +1,6 @@
 ---
 layout: default
-title: LRP documentatie
+title: LRP Help
 ---
 # First entry
 
